@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Sherlock.ActionBar.TabBar" parent="@style/Widget">
+        <item name="android:divider">?actionBarDivider</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView" parent="@style/Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/abs__ab_share_pack_holo_dark</item>
+        <item name="android:divider">?dividerVertical</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">6.0dip</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner" parent="@style/Widget">
+        <item name="android:gravity">center|left</item>
+        <item name="android:clickable">true</item>
+        <item name="android:dropDownSelector">@drawable/abs__list_selector_holo_dark</item>
+        <item name="android:popupBackground">@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/abs__progress_medium_holo</item>
+        <item name="android:animationResolution">33</item>
+    </style>
+    <style name="Sherlock.__Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Sherlock.Dialog" parent="@android:style/Theme">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:textColorPrimary">@color/abs__primary_text_holo_dark</item>
+        <item name="android:textColorPrimaryInverse">@color/abs__primary_text_holo_light</item>
+        <item name="android:windowBackground">@drawable/abs__dialog_full_holo_dark</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="windowMinWidthMajor">@dimen/abs__dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/abs__dialog_min_width_minor</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.Dialog" parent="@android:style/Theme.Light">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:textColorPrimary">@color/abs__primary_text_holo_light</item>
+        <item name="android:textColorPrimaryInverse">@color/abs__primary_text_holo_dark</item>
+        <item name="android:windowBackground">@drawable/abs__dialog_full_holo_light</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Sherlock.Light</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="windowContentOverlay">@null</item>
+        <item name="windowMinWidthMajor">@dimen/abs__dialog_min_width_major</item>
+        <item name="windowMinWidthMinor">@dimen/abs__dialog_min_width_minor</item>
+        <item name="windowActionBar">false</item>
+    </style>
+    <style name="gridStyle">
+        <item name="android:padding">0.0px</item>
+        <item name="android:listSelector">@drawable/bg_clickable_borderless</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0px</item>
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="Theme.Slideme.Dark" parent="@style/Theme.Sherlock">
+        <item name="android:textColorPrimary">#ffffffff</item>
+        <item name="android:textColorSecondary">#ffdddddd</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large.Slideme</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Medium.Slideme</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small.Slideme</item>
+        <item name="android:listPreferredItemHeight">@dimen/listPreferredItemHeight</item>
+        <item name="android:windowBackground">?backgroundPrimary</item>
+        <item name="android:windowContentOverlay">@drawable/fg_window_content</item>
+        <item name="android:seekBarStyle">@style/Widget.Slideme.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Slideme.RadioButton.Dark</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:dividerHeight">0.0px</item>
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Slideme.Dark</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Slideme.ActionButton.Overflow</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        <item name="showcaseViewStyle">@style/SlideMeShowcaseTheme</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar.Slideme.Dark</item>
+        <item name="windowContentOverlay">@drawable/fg_window_content</item>
+        <item name="backgroundPrimary">@drawable/theme_dark_primary</item>
+        <item name="backgroundSecondary">@drawable/theme_dark_secondary</item>
+        <item name="backgroundTertiary">@drawable/theme_dark_tertiary</item>
+        <item name="backgroundListItemEven">@drawable/theme_dark_list_even</item>
+        <item name="backgroundListItemOdd">@drawable/theme_dark_list_odd</item>
+        <item name="titlePageIndicatorSelectedColor">#ffffffff</item>
+        <item name="slidingTabSelectorBackground">@drawable/flat_dark_background_slider</item>
+        <item name="bevelDark">@color/dark_bevelDark</item>
+        <item name="bevelLight">@color/dark_bevelLight</item>
+        <item name="secondaryDivider">#ff808080</item>
+        <item name="ratingBarSmall">@style/Widget.RatingBar.Small.Slideme</item>
+        <item name="ratingBarMedium">@style/Widget.RatingBar.Medium.Slideme</item>
+        <item name="ratingBarBig">@style/Widget.RatingBar.Big.Slideme</item>
+        <item name="textShadowColor">@color/text_shadow_dark</item>
+        <item name="buttonTextColor">@color/button_textcolor_dark</item>
+    </style>
+    <style name="Theme.Slideme.Light" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:textColorPrimary">#ff000000</item>
+        <item name="android:textColorSecondary">#ff666666</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Large.Slideme</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Medium.Slideme</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Small.Slideme</item>
+        <item name="android:listPreferredItemHeight">@dimen/listPreferredItemHeight</item>
+        <item name="android:windowBackground">?backgroundPrimary</item>
+        <item name="android:seekBarStyle">@style/Widget.Slideme.SeekBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Slideme.RadioButton.Light</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:dividerHeight">0.0px</item>
+        <item name="android:actionBarStyle">@style/Widget.ActionBar.Slideme.Light</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Slideme.ActionButton.Overflow</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/fastscroll_thumb_holo</item>
+        <item name="showcaseViewStyle">@style/SlideMeShowcaseTheme</item>
+        <item name="actionBarStyle">@style/Widget.ActionBar.Slideme.Light</item>
+        <item name="backgroundPrimary">@drawable/theme_light_primary</item>
+        <item name="backgroundSecondary">@drawable/theme_light_secondary</item>
+        <item name="backgroundTertiary">@drawable/theme_light_tertiary</item>
+        <item name="backgroundListItemEven">@drawable/theme_light_list_even</item>
+        <item name="backgroundListItemOdd">@drawable/theme_light_list_odd</item>
+        <item name="titlePageIndicatorSelectedColor">#ff000000</item>
+        <item name="slidingTabSelectorBackground">@drawable/flat_dark_background_slider</item>
+        <item name="bevelDark">@color/light_bevelDark</item>
+        <item name="bevelLight">@color/light_bevelLight</item>
+        <item name="secondaryDivider">#ff808080</item>
+        <item name="ratingBarSmall">@style/Widget.RatingBar.Small.Slideme</item>
+        <item name="ratingBarMedium">@style/Widget.RatingBar.Medium.Slideme</item>
+        <item name="ratingBarBig">@style/Widget.RatingBar.Big.Slideme</item>
+        <item name="textShadowColor">@color/text_shadow_light</item>
+        <item name="buttonTextColor">@color/button_textcolor_light</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="android:background">@drawable/bg_actionbar_repeat</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="background">@drawable/bg_actionbar_repeat</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Light" parent="@style/Widget.ActionBar.Slideme">
+        <item name="android:titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Dark" parent="@style/Widget.ActionBar.Slideme">
+        <item name="android:titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item name="titleTextStyle">@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+    </style>
+</resources>

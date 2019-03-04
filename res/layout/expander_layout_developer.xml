@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.slideme.sam.manager" slideme:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" slideme:orientation="vertical" slideme:layout_width="match_parent" slideme:layout_height="wrap_content">
+    <com.slideme.sam.manager.view.touchme.ApplicationListView slideme:id="@id/devAppList" slideme:layout_width="match_parent" slideme:layout_height="wrap_content" slideme:numApps="4" slideme:emptyText="@string/no_more_apps" />
+    <Button slideme:id="@id/vendorButton" slideme:layout_width="wrap_content" slideme:layout_height="wrap_content" slideme:layout_margin="5dp" style="@style/Widget.Button.SlideMe" />
+</LinearLayout>

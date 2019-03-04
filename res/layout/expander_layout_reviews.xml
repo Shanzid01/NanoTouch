@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/com.slideme.sam.manager" slideme:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" slideme:orientation="vertical" slideme:layout_width="match_parent" slideme:layout_height="wrap_content">
+    <com.slideme.sam.manager.view.touchme.ReviewListView slideme:id="@id/reviewList" slideme:layout_width="match_parent" slideme:layout_height="wrap_content" slideme:numReviews="3" />
+    <Button slideme:id="@id/reviews" slideme:visibility="gone" slideme:layout_width="wrap_content" slideme:layout_height="wrap_content" slideme:layout_margin="5dp" slideme:text="@string/all_reviews" style="@style/Widget.Button.SlideMe" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.SafeViewFlipper xmlns:android="http://schemas.android.com/apk/res/com.slideme.sam.manager" app:id="@id/flipper" app:padding="@dimen/ratingChartPaddings" app:layout_width="match_parent" app:layout_height="wrap_content" app:inAnimation="0x10a0000" app:outAnimation="0x10a0001">
+    <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/loading_chart" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x0" app:layout_weight="1.0" />
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/averageBox" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentLeft="true">
+            <TextView app:textAppearance="?unknown_attr_ref: 1010041" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/average" app:shadowColor="?attr/textShadowColor" app:shadowDy="1.0" app:shadowRadius="2.0" />
+            <TextView app:textAppearance="?unknown_attr_ref: 1010040" app:id="@id/averageNumber" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+            <RatingBar app:id="@id/averageBar" app:layout_width="wrap_content" app:layout_height="wrap_content" style="@style/Widget.RatingBar.Small.Slideme" />
+            <TextView app:textAppearance="?unknown_attr_ref: 1010041" app:id="@id/averageTotal" app:layout_width="wrap_content" app:layout_height="wrap_content" />
+        </LinearLayout>
+        <View app:id="@id/separator" app:layout_height="UNKNOWN_DATA_0x5001" app:layout_margin="@dimen/ratingChartPaddings" app:layout_toRightOf="@id/averageBox" app:layout_centerVertical="true" style="@style/separator_horizontal" />
+        <TableLayout app:id="@id/content" app:layout_width="match_parent" app:layout_height="wrap_content" app:stretchColumns="1" app:layout_weight="0.5" app:layout_toRightOf="@id/separator">
+            <TableRow app:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:textStyle="bold" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/fiveStar" />
+                <ProgressBar app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc01" app:progressDrawable="@drawable/progress_review_chart" style="?unknown_attr_ref: 1010078" />
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+            </TableRow>
+            <TableRow app:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/fourStar" />
+                <ProgressBar app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc01" app:maxWidth="100dp" app:progressDrawable="@drawable/progress_review_chart" style="?unknown_attr_ref: 1010078" />
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+            </TableRow>
+            <TableRow app:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:textStyle="bold" app:layout_width="match_parent" app:layout_height="wrap_content" app:text="@string/threeStar" />
+                <ProgressBar app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc01" app:maxWidth="100dp" app:progressDrawable="@drawable/progress_review_chart" style="?unknown_attr_ref: 1010078" />
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+            </TableRow>
+            <TableRow app:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/twoStar" />
+                <ProgressBar app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc01" app:maxWidth="100dp" app:progressDrawable="@drawable/progress_review_chart" style="?unknown_attr_ref: 1010078" />
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+            </TableRow>
+            <TableRow app:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:textStyle="bold" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/oneStar" />
+                <ProgressBar app:paddingLeft="8dp" app:paddingRight="8dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xc01" app:maxWidth="100dp" app:progressDrawable="@drawable/progress_review_chart" style="?unknown_attr_ref: 1010078" />
+                <TextView app:textAppearance="?unknown_attr_ref: 1010042" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+            </TableRow>
+        </TableLayout>
+        <View app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x0" app:layout_weight="1.0" />
+    </LinearLayout>
+</com.slideme.sam.manager.view.touchme.SafeViewFlipper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/header_settings_general">
+        <extra android:name="resource" android:value="preferences" />
+    </header>
+    <header android:title="@string/header_settings_local">
+        <extra android:name="resource" android:value="preferences" />
+    </header>
+    <header android:title="@string/header_settings_parental">
+        <extra android:name="resource" android:value="preferences" />
+    </header>
+    <header android:title="@string/header_settings_cache">
+        <extra android:name="resource" android:value="preferences" />
+    </header>
+</preference-headers>

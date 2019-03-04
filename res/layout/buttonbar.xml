@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?unknown_attr_ref: 101032c"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="?unknown_attr_ref: 101032e">
+        <Button android:textSize="14sp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/positive" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="0x104000a" android:maxLines="2" android:layout_weight="1.0" style="@style/Widget.Button.SlideMe" />
+        <Button android:textSize="14sp" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/negative" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/cancel" android:maxLines="2" android:layout_weight="1.0" style="@style/Widget.Button.SlideMe" />
+    </LinearLayout>
+</LinearLayout>

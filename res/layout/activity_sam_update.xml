@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:padding="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:text="@string/update_in_progress" style="@style/Widget.TextView.Slideme.Form.Title" />
+    <ProgressBar android:id="@id/download_progress" android:layout_width="UNKNOWN_DATA_0xfa01" android:layout_height="UNKNOWN_DATA_0xa01" android:layout_marginBottom="8dp" android:max="100" android:progress="0" style="@style/Widget.Slideme.ProgressBar" />
+    <TextView android:id="@id/download_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 1010042" />
+</LinearLayout>

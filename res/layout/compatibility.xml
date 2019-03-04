@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TableLayout android:id="@id/detail_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:stretchColumns="2,3" android:shrinkColumns="4">
+        <TableRow>
+            <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/device" android:padding="3dp" android:layout_column="2" android:text="@string/current_device" />
+            <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/requirements" android:padding="3dp" android:layout_column="3" android:text="@string/requirements" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sdkVersion" android:padding="3dp" android:layout_column="1" android:text="@string/min_os" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sdk1" android:padding="3dp" android:layout_column="2" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/supported_sdk" android:padding="3dp" android:layout_column="3" />
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/min_os" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_column="4" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/targetSdkVersion" android:padding="3dp" android:layout_column="1" android:text="@string/target_os" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sdk2" android:padding="3dp" android:layout_column="2" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/target_sdk" android:padding="3dp" android:layout_column="3" />
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/target_os" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_column="4" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/maxSdkVersion" android:padding="3dp" android:layout_column="1" android:text="@string/max_os" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sdk3" android:padding="3dp" android:layout_column="2" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/max_sdk" android:padding="3dp" android:layout_column="3" />
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/max_os" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_column="4" />
+        </TableRow>
+        <TableRow>
+            <TextView android:textSize="11sp" android:textStyle="bold" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/locales" android:padding="3dp" android:layout_column="1" android:text="@string/locale" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/device_locale" android:padding="3dp" android:layout_column="2" />
+            <TextView android:textSize="11sp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/supported_locales" android:padding="3dp" android:maxWidth="7dp" android:layout_column="3" />
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/locale" android:padding="3dp" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:src="0x106000d" android:layout_column="4" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,26 @@
+package com.slideme.sam.manager.net;
+
+/* compiled from: NetworkUtils */
+public enum C1880m {
+    FAILURE_POLL_ELAPSED(901),
+    FAILURE_PURCHASE_CANCELLED(902),
+    FAILURE_OUT_OF_STOCK(903),
+    FAILURE_PRICE_MISMATCH(904),
+    FAILURE_INVALID_UUID(905),
+    FAILURE_NO_FUNDS(907),
+    ERROR_PROCESSING_PAYMENT(800),
+    ERROR_UNKNOWN(801),
+    ERROR_PURCHASE_IO(802),
+    ERROR_PURCHASE_CHECK_FAILED(803),
+    ERROR_PURCHASE_RESPONSE_MALFORMED(804),
+    ERROR_MISSING_ITEM(805),
+    ERROR_MISSING_TOKEN(807),
+    ERROR_NO_PAYMENT_METHOD(808),
+    SUCCESS(0);
+    
+    public int code;
+
+    private C1880m(int i) {
+        this.code = i;
+    }
+}

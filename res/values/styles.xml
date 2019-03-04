@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShowcaseButton">
+        <item>1</item>
+        <item>#ffffff</item>
+        <item>11</item>
+        <item>@drawable/button</item>
+        <item>-2</item>
+        <item>-2</item>
+        <item>96dp</item>
+    </style>
+    <style name="ShowcaseView.Light">
+        <item>#3333b5e5</item>
+        <item>?unknown_ref: 104000a</item>
+        <item>@style/TextAppearance.ShowcaseView.Detail.Light</item>
+        <item>@style/TextAppearance.ShowcaseView.Title</item>
+    </style>
+    <style name="ShowcaseView">
+        <item>#3333b5e5</item>
+        <item>?unknown_ref: 104000a</item>
+        <item>@style/TextAppearance.ShowcaseView.Detail</item>
+        <item>@style/TextAppearance.ShowcaseView.Title</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Title">
+        <item>#33b5e5</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Detail">
+        <item>#ffffff</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Detail.Light">
+        <item>#333333</item>
+        <item>#ff0000</item>
+        <item>0.0</item>
+    </style>
+    <style name="TextAppearance.ShowcaseView.Title.Light">
+        <item>0.0</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Sherlock.__Widget.ActionBar">
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>?attr/actionBarSize</item>
+        <item>b</item>
+        <item>@layout/abs__action_bar_home</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@drawable/abs__ab_transparent_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_transparent_dark_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@drawable/abs__ab_stacked_transparent_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@drawable/abs__ab_solid_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_dark_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.Solid">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@drawable/abs__ab_transparent_light_holo</item>
+        <item>@drawable/abs__ab_bottom_transparent_light_holo</item>
+        <item>@drawable/abs__ic_ab_back_holo_light</item>
+        <item>@drawable/abs__ab_stacked_transparent_light_holo</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle</item>
+        <item>@drawable/abs__ab_solid_light_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_light_holo</item>
+        <item>?attr/dividerVertical</item>
+        <item>@drawable/abs__ab_stacked_solid_light_holo</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.Light.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse</item>
+        <item>@drawable/abs__ab_solid_dark_holo</item>
+        <item>@drawable/abs__ab_bottom_solid_inverse_holo</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@drawable/abs__ab_stacked_solid_dark_holo</item>
+        <item>@style/Widget.Sherlock.ProgressBar.Horizontal</item>
+        <item>@style/Widget.Sherlock.ProgressBar</item>
+        <item>32dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView">
+        <item>1</item>
+        <item>@drawable/abs__tab_indicator_ab_holo</item>
+        <item>16dp</item>
+        <item>16dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabView.Inverse">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar">
+        <item>?attr/actionBarDivider</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar">
+        <item>?attr/actionBarDivider</item>
+        <item>2</item>
+        <item>12dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabBar.Inverse">
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText">
+        <item>?unknown_ref: 0</item>
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/textColorPrimary</item>
+        <item>4</item>
+        <item>2</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText">
+        <item>?unknown_ref: 0</item>
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/textColorPrimary</item>
+        <item>4</item>
+        <item>2</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.Sherlock.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+        <item>?attr/textColorPrimaryInverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionBar.TabText.Inverse">
+    </style>
+    <style name="Widget.Sherlock.ActionButton">
+        <item>11</item>
+        <item>?attr/actionBarItemBackground</item>
+        <item>12dp</item>
+        <item>12dp</item>
+        <item>5</item>
+        <item>@dimen/abs__action_button_min_width</item>
+        <item>?attr/actionBarSize</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton">
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+        <item>@drawable/abs__btn_cab_done_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+        <item>@drawable/abs__btn_cab_done_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.CloseMode">
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+        <item>?attr/actionBarItemBackground</item>
+        <item>@drawable/abs__ic_menu_moreoverflow_holo_dark</item>
+        <item>@string/abs__action_menu_overflow_description</item>
+    </style>
+    <style name="Widget.Sherlock.ActionButton.Overflow">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+        <item>@drawable/abs__ic_menu_moreoverflow_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionButton.Overflow">
+    </style>
+    <style name="Sherlock.__Widget.ActionMode">
+        <item>?attr/actionModeBackground</item>
+        <item>?attr/actionModeSplitBackground</item>
+        <item>?attr/actionBarSize</item>
+    </style>
+    <style name="Widget.Sherlock.ActionMode">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ActionMode.Inverse">
+    </style>
+    <style name="Widget.Sherlock.ListPopupWindow">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ListPopupWindow">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Widget.Sherlock.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupMenu">
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView">
+        <item>11</item>
+        <item>@drawable/abs__ab_share_pack_holo_dark</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/actionBarSize</item>
+    </style>
+    <style name="Sherlock.__Widget.ActivityChooserView">
+        <item>11</item>
+        <item>@drawable/abs__ab_share_pack_holo_dark</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/actionBarSize</item>
+        <item>2</item>
+        <item>6dp</item>
+    </style>
+    <style name="Widget.Sherlock.ActivityChooserView">
+    </style>
+    <style name="Widget.Sherlock.Light.ActivityChooserView">
+        <item>@drawable/abs__ab_share_pack_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Button.Small">
+        <item>?attr/textAppearanceSmall</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>48dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Button.Small">
+        <item>?attr/textAppearanceSmall</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>48dp</item>
+        <item>48dp</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner">
+        <item>13</item>
+        <item>true</item>
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+    </style>
+    <style name="Sherlock.__Widget.Holo.Spinner">
+        <item>13</item>
+        <item>true</item>
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+        <item>-2</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>1</item>
+    </style>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item>@drawable/abs__spinner_ab_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+        <item>@drawable/abs__spinner_ab_holo_light</item>
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+    </style>
+    <style name="Sherlock.__Widget.Holo.ListView">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown">
+    </style>
+    <style name="Widget.Sherlock.ListView.DropDown">
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__list_divider_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ListView.DropDown">
+    </style>
+    <style name="Sherlock.__Widget.Holo.DropDownItem">
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownItem</item>
+        <item>10</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Widget.Sherlock.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.Sherlock.Light.DropDownItem.Spinner">
+    </style>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode">
+        <item>?unknown_ref: 106000b</item>
+    </style>
+    <style name="Widget.Sherlock.Light.PopupWindow.ActionMode">
+    </style>
+    <style name="Widget.Sherlock.ProgressBar">
+        <item>@drawable/abs__progress_medium_holo</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar">
+        <item>@drawable/abs__progress_medium_holo</item>
+        <item>33</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar">
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal">
+        <item>16dp</item>
+        <item>@drawable/abs__progress_horizontal_holo_dark</item>
+        <item>16dp</item>
+    </style>
+    <style name="Widget.Sherlock.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal">
+        <item>@drawable/abs__progress_horizontal_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.ProgressBar.Horizontal">
+    </style>
+    <style name="Widget.Sherlock.TextView.SpinnerItem">
+        <item>@style/TextAppearance.Sherlock.Widget.TextView.SpinnerItem</item>
+        <item>8dp</item>
+        <item>8dp</item>
+    </style>
+    <style name="Sherlock.__Widget.SearchAutoCompleteTextView">
+        <item>?unknown_attr_ref: 1010044</item>
+        <item>?attr/textColorPrimary</item>
+        <item>10</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>@layout/abs__simple_dropdown_hint</item>
+        <item>2</item>
+        <item>-2</item>
+    </style>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView">
+        <item>@drawable/abs__list_selector_holo_dark</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_dark</item>
+    </style>
+    <style name="Widget.Sherlock.SearchAutoCompleteTextView">
+    </style>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView">
+        <item>@drawable/abs__list_selector_holo_light</item>
+        <item>@drawable/abs__menu_dropdown_panel_holo_light</item>
+    </style>
+    <style name="Widget.Sherlock.Light.SearchAutoCompleteTextView">
+    </style>
+    <style name="DialogWindowTitle.Sherlock">
+        <item>@style/TextAppearance.Sherlock.DialogWindowTitle</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>@dimen/abs__alert_dialog_title_height</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="DialogWindowTitle.Sherlock.Light">
+        <item>@style/TextAppearance.Sherlock.Light.DialogWindowTitle</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>@dimen/abs__alert_dialog_title_height</item>
+        <item>1</item>
+        <item>true</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/actionMenuTextColor</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+        <item>12sp</item>
+        <item>1</item>
+        <item>?attr/actionMenuTextColor</item>
+        <item>@bool/abs__config_actionMenuItemAllCaps</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Menu">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionBar.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010036</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse">
+        <item>@dimen/abs__action_bar_title_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Title.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse">
+        <item>@dimen/abs__action_bar_subtitle_text_size</item>
+        <item>?unknown_attr_ref: 1010039</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.ActionMode.Subtitle.Inverse">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu">
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Large">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+        <item>14sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Widget.PopupMenu.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.TextView.SpinnerItem">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownItem">
+        <item>16sp</item>
+        <item>0</item>
+        <item>?attr/textColorPrimaryDisableOnly</item>
+    </style>
+    <style name="TextAppearance.Sherlock.DialogWindowTitle">
+        <item>22sp</item>
+        <item>@color/abs__holo_blue_light</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.DialogWindowTitle">
+        <item>22sp</item>
+        <item>@color/abs__holo_blue_light</item>
+    </style>
+    <style name="Sherlock.__TextAppearance.Small">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.Small">
+    </style>
+    <style name="TextAppearance.Sherlock.Widget.DropDownHint">
+        <item>14sp</item>
+        <item>?attr/textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.Sherlock">
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult">
+        <item>0</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>?unknown_attr_ref: 101009a</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Title">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.SearchResult.Subtitle">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult">
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Title">
+        <item>18sp</item>
+    </style>
+    <style name="TextAppearance.Sherlock.Light.SearchResult.Subtitle">
+        <item>14sp</item>
+        <item>?unknown_attr_ref: 1010038</item>
+    </style>
+    <style name="Sherlock.__Theme">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Sherlock.__Theme">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Sherlock.__Theme">
+    </style>
+    <style name="Sherlock.__Theme.Light">
+        <item>?unknown_ref: 0</item>
+    </style>
+    <style name="Sherlock.__Theme.Light">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light">
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar">
+    </style>
+    <style name="Sherlock.__Theme.DarkActionBar">
+        <item>@style/Theme.Sherlock</item>
+        <item>?unknown_attr_ref: 10102eb</item>
+        <item>?unknown_attr_ref: 101030e</item>
+        <item>?unknown_attr_ref: 101006d</item>
+        <item>48dp</item>
+    </style>
+    <style name="Sherlock.__Theme.Dialog">
+    </style>
+    <style name="Theme.Sherlock">
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item>@style/Widget.Sherlock.ActionBar.TabView</item>
+        <item>@style/Widget.Sherlock.ActionBar.TabBar</item>
+        <item>@style/Widget.Sherlock.ActionBar.TabText</item>
+        <item>@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.ActionBar</item>
+        <item>?attr/actionBarStyle</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__action_bar_default_height</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item>?attr/textColorPrimary</item>
+        <item>@style/Widget.Sherlock.ActionMode</item>
+        <item>@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_dark</item>
+        <item>@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item>@drawable/abs__ic_cab_done_holo_dark</item>
+        <item>@drawable/abs__ic_menu_share_holo_dark</item>
+        <item>@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item>@style/Widget.Sherlock.Button.Small</item>
+        <item>@drawable/abs__item_background_holo_dark</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/TextAppearance.Sherlock.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.Sherlock.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.Sherlock.Small</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@color/abs__primary_text_disable_only_holo_dark</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item>@style/Widget.Sherlock.DropDownItem.Spinner</item>
+        <item>@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_dark</item>
+        <item>@drawable/abs__ic_clear</item>
+        <item>@drawable/abs__ic_go</item>
+        <item>@drawable/abs__ic_search</item>
+        <item>@drawable/abs__ic_voice_search</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_dark</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@drawable/abs__textfield_searchview_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item>58dp</item>
+        <item>@style/TextAppearance.Sherlock.SearchResult.Title</item>
+        <item>@style/TextAppearance.Sherlock.SearchResult.Subtitle</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_dark</item>
+        <item>@style/Widget.Sherlock.ListView.DropDown</item>
+        <item>@style/Widget.Sherlock.PopupMenu</item>
+        <item>48dp</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@style/Widget.Sherlock.ListPopupWindow</item>
+        <item>@style/Widget.Sherlock.ActivityChooserView</item>
+        <item>@drawable/abs__activated_background_holo_dark</item>
+    </style>
+    <style name="Theme.Sherlock.Light">
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabView</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabBar</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabText</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.Solid</item>
+        <item>?attr/actionBarStyle</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__action_bar_default_height</item>
+        <item>?attr/dividerVertical</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
+        <item>?attr/textColorPrimary</item>
+        <item>@style/Widget.Sherlock.Light.ActionMode</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_light</item>
+        <item>@drawable/abs__cab_background_bottom_holo_light</item>
+        <item>@drawable/abs__ic_cab_done_holo_light</item>
+        <item>@drawable/abs__ic_menu_share_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.PopupWindow.ActionMode</item>
+        <item>@style/Widget.Sherlock.Light.Button.Small</item>
+        <item>@drawable/abs__item_background_holo_light</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Large</item>
+        <item>@style/TextAppearance.Sherlock.Light.Widget.PopupMenu.Small</item>
+        <item>@style/TextAppearance.Sherlock.Light.Small</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@color/abs__primary_text_disable_only_holo_light</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@style/Widget.Sherlock.TextView.SpinnerItem</item>
+        <item>@style/Widget.Sherlock.Light.DropDownItem.Spinner</item>
+        <item>@style/Widget.Sherlock.Light.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_light</item>
+        <item>@drawable/abs__ic_clear_holo_light</item>
+        <item>@drawable/abs__ic_go_search_api_holo_light</item>
+        <item>@drawable/abs__ic_search_api_holo_light</item>
+        <item>@drawable/abs__ic_voice_search_api_holo_light</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_light</item>
+        <item>?attr/selectableItemBackground</item>
+        <item>@drawable/abs__textfield_searchview_holo_light</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_light</item>
+        <item>58dp</item>
+        <item>@style/TextAppearance.Sherlock.Light.SearchResult.Title</item>
+        <item>@style/TextAppearance.Sherlock.Light.SearchResult.Subtitle</item>
+        <item>@drawable/abs__list_divider_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.Light.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_light</item>
+        <item>@style/Widget.Sherlock.Light.ListView.DropDown</item>
+        <item>@style/Widget.Sherlock.Light.PopupMenu</item>
+        <item>48dp</item>
+        <item>true</item>
+        <item>false</item>
+        <item>@style/Widget.Sherlock.Light.ListPopupWindow</item>
+        <item>@style/Widget.Sherlock.Light.ActivityChooserView</item>
+        <item>@drawable/abs__activated_background_holo_light</item>
+    </style>
+    <style name="Theme.Sherlock.Light.DarkActionBar">
+        <item>@style/TextAppearance.Sherlock.Widget.DropDownHint</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabView.Inverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabBar.Inverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.TabText.Inverse</item>
+        <item>@style/Widget.Sherlock.ActionButton.Overflow</item>
+        <item>@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse</item>
+        <item>@style/Theme.Sherlock</item>
+        <item>@drawable/abs__list_divider_holo_dark</item>
+        <item>@drawable/abs__item_background_holo_dark</item>
+        <item>?attr/textColorPrimaryInverse</item>
+        <item>@style/Widget.Sherlock.Light.ActionMode.Inverse</item>
+        <item>@style/Widget.Sherlock.ActionButton.CloseMode</item>
+        <item>@drawable/abs__cab_background_top_holo_dark</item>
+        <item>@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item>@drawable/abs__ic_cab_done_holo_dark</item>
+        <item>@drawable/abs__ic_menu_share_holo_dark</item>
+        <item>@style/Widget.Sherlock.PopupWindow.ActionMode</item>
+        <item>@drawable/abs__ab_solid_shadow_holo</item>
+        <item>@style/Widget.Sherlock.SearchAutoCompleteTextView</item>
+        <item>@drawable/abs__search_dropdown_dark</item>
+        <item>@drawable/abs__ic_clear</item>
+        <item>@drawable/abs__ic_go</item>
+        <item>@drawable/abs__ic_search</item>
+        <item>@drawable/abs__ic_voice_search</item>
+        <item>@drawable/abs__ic_commit_search_api_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_holo_dark</item>
+        <item>@drawable/abs__textfield_searchview_right_holo_dark</item>
+        <item>@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
+        <item>@style/Widget.Sherlock.ActionButton</item>
+        <item>@drawable/abs__ic_ab_back_holo_dark</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.NoActionBar">
+        <item>true</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Dialog">
+        <item>0.6</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@drawable/abs__dialog_full_holo_dark</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/DialogWindowTitle.Sherlock</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__dialog_min_width_major</item>
+        <item>@dimen/abs__dialog_min_width_minor</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Dialog">
+        <item>0.6</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@drawable/abs__dialog_full_holo_dark</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/DialogWindowTitle.Sherlock</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__dialog_min_width_major</item>
+        <item>@dimen/abs__dialog_min_width_minor</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Dialog">
+    </style>
+    <style name="Theme.Sherlock.Light.Dialog">
+        <item>0.6</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@drawable/abs__dialog_full_holo_light</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/DialogWindowTitle.Sherlock.Light</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__dialog_min_width_major</item>
+        <item>@dimen/abs__dialog_min_width_minor</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.Dialog">
+        <item>0.6</item>
+        <item>@color/abs__primary_text_holo_light</item>
+        <item>@color/abs__primary_text_holo_dark</item>
+        <item>@drawable/abs__dialog_full_holo_light</item>
+        <item>?unknown_ref: 0</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@style/DialogWindowTitle.Sherlock.Light</item>
+        <item>?unknown_ref: 1030002</item>
+        <item>20</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>@dimen/abs__dialog_min_width_major</item>
+        <item>@dimen/abs__dialog_min_width_minor</item>
+        <item>false</item>
+    </style>
+    <style name="Theme.Sherlock.Light.Dialog">
+    </style>
+    <style name="com_facebook_loginview_default_style">
+        <item>@dimen/com_facebook_loginview_text_size</item>
+        <item>1</item>
+        <item>@color/com_facebook_loginview_text_color</item>
+        <item>11</item>
+        <item>@drawable/com_facebook_button_blue</item>
+        <item>@dimen/com_facebook_loginview_padding_left</item>
+        <item>-2</item>
+        <item>-2</item>
+    </style>
+    <style name="com_facebook_loginview_silver_style">
+        <item>18sp</item>
+        <item>1</item>
+        <item>#4b5164</item>
+        <item>11</item>
+        <item>@drawable/com_facebook_loginbutton_silver</item>
+        <item>44dp</item>
+        <item>205dp</item>
+    </style>
+    <style name="tooltip_bubble_text">
+        <item>12sp</item>
+        <item>?unknown_ref: 106000b</item>
+        <item>3</item>
+        <item>#40000000</item>
+        <item>-1.0</item>
+        <item>0.25</item>
+    </style>
+    <style name="Theme.IAPTheme">
+        <item>?unknown_ref: 106000d</item>
+        <item>true</item>
+        <item>true</item>
+        <item>true</item>
+        <item>?unknown_ref: 0</item>
+        <item>false</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item>14sp</item>
+        <item>0</item>
+        <item>@color/wallet_secondary_text_holo_dark</item>
+        <item>@color/wallet_highlighted_text_holo_dark</item>
+        <item>@color/wallet_hint_foreground_holo_dark</item>
+        <item>@color/wallet_holo_blue_light</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance">
+        <item>1</item>
+    </style>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item>18sp</item>
+        <item>0</item>
+        <item>@color/wallet_primary_text_holo_light</item>
+        <item>@color/wallet_highlighted_text_holo_light</item>
+        <item>@color/wallet_hint_foreground_holo_light</item>
+        <item>@color/wallet_link_text_light</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item>48dp</item>
+        <item>-1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item>@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item>@color/wallet_bright_foreground_holo_light</item>
+        <item>@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item>?unknown_ref: 1080004</item>
+        <item>@color/wallet_bright_foreground_holo_dark</item>
+        <item>1</item>
+    </style>
+    <style name="TextAppearance.Large.Slideme">
+        <item>@dimen/textSizeLarge</item>
+    </style>
+    <style name="TextAppearance.Medium.Slideme">
+        <item>@dimen/textSizeMedium</item>
+    </style>
+    <style name="TextAppearance.Small.Slideme">
+        <item>@dimen/textSizeSmall</item>
+    </style>
+    <style name="SlidingTabSelectorLabelStyle">
+        <item>?unknown_attr_ref: 1010042</item>
+        <item>@dimen/textSizeMicro</item>
+        <item>1</item>
+        <item>3</item>
+        <item>11</item>
+        <item>1dp</item>
+        <item>0dp</item>
+        <item>1dp</item>
+        <item>0dp</item>
+        <item>0dp</item>
+        <item>-2</item>
+        <item>1</item>
+        <item>@color/text_shadow_dark</item>
+        <item>1.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="AccentedTextViewStyle">
+        <item>?unknown_ref: 106000b</item>
+        <item>12dp</item>
+    </style>
+    <style name="PagerTitleStrip">
+        <item>30</item>
+        <item>?attr/backgroundSecondary</item>
+        <item>@dimen/pager_strip_max</item>
+        <item>@dimen/pager_strip_min</item>
+    </style>
+    <style name="separator_vertical">
+        <item>?attr/secondaryDivider</item>
+        <item>-2</item>
+        <item>1px</item>
+        <item>3dp</item>
+        <item>3dp</item>
+    </style>
+    <style name="separator_horizontal">
+        <item>?attr/secondaryDivider</item>
+        <item>1px</item>
+        <item>-2</item>
+        <item>3dp</item>
+        <item>3dp</item>
+    </style>
+    <style name="appDetailsItemStyle">
+        <item>@drawable/bg_clickable_borderless</item>
+        <item>true</item>
+        <item>true</item>
+        <item>-2</item>
+        <item>?unknown_attr_ref: 101004d</item>
+    </style>
+    <style name="Widget.Slideme.ActionButton.Overflow">
+        <item>@drawable/ic_menu_moreoverflow</item>
+    </style>
+    <style name="gridStyle">
+        <item>0px</item>
+        <item>@drawable/bg_clickable_borderless</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>2</item>
+        <item>?unknown_ref: 0</item>
+        <item>0px</item>
+    </style>
+    <style name="gridStyle">
+        <item>0px</item>
+        <item>@drawable/bg_clickable_borderless</item>
+        <item>true</item>
+        <item>?unknown_ref: 106000d</item>
+        <item>2</item>
+        <item>?unknown_ref: 0</item>
+        <item>0px</item>
+        <item>0</item>
+    </style>
+    <style name="Widget.RatingBar.Small.Slideme">
+        <item>13dp</item>
+        <item>@drawable/rating_small</item>
+        <item>13dp</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.RatingBar.Medium.Slideme">
+        <item>35dp</item>
+        <item>@drawable/rating_medium</item>
+        <item>35dp</item>
+        <item>true</item>
+    </style>
+    <style name="Widget.RatingBar.Big.Slideme">
+        <item>38dp</item>
+        <item>@drawable/rating_big</item>
+        <item>38dp</item>
+        <item>false</item>
+    </style>
+    <style name="Widget.Button.SlideMe">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>?attr/buttonTextColor</item>
+        <item>@drawable/bg_button</item>
+        <item>16dp</item>
+        <item>8dp</item>
+        <item>16dp</item>
+        <item>8dp</item>
+        <item>1dp</item>
+        <item>1dp</item>
+        <item>45dp</item>
+        <item>?attr/textShadowColor</item>
+        <item>1.0</item>
+        <item>2.0</item>
+    </style>
+    <style name="Widget.Button.SlideMe.Green">
+        <item>?unknown_attr_ref: 1010041</item>
+        <item>?unknown_ref: 106000c</item>
+        <item>@drawable/bg_button_green</item>
+        <item>12dp</item>
+        <item>@color/text_shadow_light</item>
+        <item>1.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="Widget.TextView.Slideme.Form.Title">
+        <item>?unknown_attr_ref: 1010040</item>
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>?attr/textShadowColor</item>
+        <item>1.0</item>
+        <item>2.0</item>
+    </style>
+    <style name="Widget.TextView.Slideme.Form.Title.Accent">
+        <item>@color/accent</item>
+    </style>
+    <style name="Widget.TextView.Slideme.Form.Value">
+        <item>?unknown_attr_ref: 1010042</item>
+        <item>?unknown_attr_ref: 1010036</item>
+        <item>24dp</item>
+        <item>24dp</item>
+    </style>
+    <style name="Widget.TextView.Slideme.GreenBackground">
+        <item>?unknown_ref: 106000c</item>
+        <item>@color/text_shadow_light</item>
+        <item>1.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="Widget.Slideme.ProgressBar">
+        <item>@drawable/custom_progress_bar</item>
+    </style>
+    <style name="Widget.AppFilterControl">
+        <item>11</item>
+        <item>800005</item>
+        <item>-2</item>
+        <item>250dp</item>
+    </style>
+    <style name="Widget.Slideme.RadioButton.Light">
+        <item>@drawable/slideme_btn_radio_holo_light</item>
+    </style>
+    <style name="Widget.Slideme.RadioButton.Dark">
+        <item>@drawable/slideme_btn_radio_holo_dark</item>
+    </style>
+    <style name="Widget.Slideme.SeekBar">
+        <item>16dp</item>
+        <item>16dp</item>
+        <item>13dp</item>
+        <item>@drawable/slideme_scrubber_progress_horizontal_holo_light</item>
+        <item>@drawable/slideme_scrubber_progress_horizontal_holo_light</item>
+        <item>13dp</item>
+        <item>@drawable/slideme_scrubber_control_selector_holo_light</item>
+        <item>16dp</item>
+    </style>
+    <style name="SlideMeShowcaseTheme">
+        <item>@color/showcase_bg</item>
+        <item>@style/ShowcaseViewTitle</item>
+        <item>@color/showcase_accent</item>
+        <item>true</item>
+    </style>
+    <style name="ShowcaseViewTitle">
+        <item>1</item>
+        <item>@color/showcase_accent</item>
+        <item>1.0</item>
+        <item>1.0</item>
+    </style>
+    <style name="Theme.Slideme.Dark">
+        <item>#fff</item>
+        <item>#ddd</item>
+        <item>@style/TextAppearance.Large.Slideme</item>
+        <item>@style/TextAppearance.Medium.Slideme</item>
+        <item>@style/TextAppearance.Small.Slideme</item>
+        <item>@dimen/listPreferredItemHeight</item>
+        <item>?attr/backgroundPrimary</item>
+        <item>@drawable/fg_window_content</item>
+        <item>@style/Widget.Slideme.SeekBar</item>
+        <item>@style/Widget.Slideme.RadioButton.Dark</item>
+        <item>0</item>
+        <item>0dp</item>
+        <item>0px</item>
+        <item>@style/SlideMeShowcaseTheme</item>
+        <item>@style/Widget.ActionBar.Slideme.Dark</item>
+        <item>@drawable/fg_window_content</item>
+        <item>@drawable/theme_dark_primary</item>
+        <item>@drawable/theme_dark_secondary</item>
+        <item>@drawable/theme_dark_tertiary</item>
+        <item>@drawable/theme_dark_list_even</item>
+        <item>@drawable/theme_dark_list_odd</item>
+        <item>#fff</item>
+        <item>@drawable/flat_dark_background_slider</item>
+        <item>@color/dark_bevelDark</item>
+        <item>@color/dark_bevelLight</item>
+        <item>#808080</item>
+        <item>@style/Widget.RatingBar.Small.Slideme</item>
+        <item>@style/Widget.RatingBar.Medium.Slideme</item>
+        <item>@style/Widget.RatingBar.Big.Slideme</item>
+        <item>@color/text_shadow_dark</item>
+        <item>@color/button_textcolor_dark</item>
+    </style>
+    <style name="Theme.Slideme.Dark">
+        <item>#fff</item>
+        <item>#ddd</item>
+        <item>@style/TextAppearance.Large.Slideme</item>
+        <item>@style/TextAppearance.Medium.Slideme</item>
+        <item>@style/TextAppearance.Small.Slideme</item>
+        <item>@dimen/listPreferredItemHeight</item>
+        <item>?attr/backgroundPrimary</item>
+        <item>@drawable/fg_window_content</item>
+        <item>@style/Widget.Slideme.SeekBar</item>
+        <item>@style/Widget.Slideme.RadioButton.Dark</item>
+        <item>0</item>
+        <item>0dp</item>
+        <item>0px</item>
+        <item>@style/Widget.ActionBar.Slideme.Dark</item>
+        <item>@style/Widget.Slideme.ActionButton.Overflow</item>
+        <item>@drawable/fastscroll_thumb_holo</item>
+        <item>@style/SlideMeShowcaseTheme</item>
+        <item>@style/Widget.ActionBar.Slideme.Dark</item>
+        <item>@drawable/fg_window_content</item>
+        <item>@drawable/theme_dark_primary</item>
+        <item>@drawable/theme_dark_secondary</item>
+        <item>@drawable/theme_dark_tertiary</item>
+        <item>@drawable/theme_dark_list_even</item>
+        <item>@drawable/theme_dark_list_odd</item>
+        <item>#fff</item>
+        <item>@drawable/flat_dark_background_slider</item>
+        <item>@color/dark_bevelDark</item>
+        <item>@color/dark_bevelLight</item>
+        <item>#808080</item>
+        <item>@style/Widget.RatingBar.Small.Slideme</item>
+        <item>@style/Widget.RatingBar.Medium.Slideme</item>
+        <item>@style/Widget.RatingBar.Big.Slideme</item>
+        <item>@color/text_shadow_dark</item>
+        <item>@color/button_textcolor_dark</item>
+    </style>
+    <style name="Theme.Slideme.Light">
+        <item>#000</item>
+        <item>#666</item>
+        <item>@style/TextAppearance.Large.Slideme</item>
+        <item>@style/TextAppearance.Medium.Slideme</item>
+        <item>@style/TextAppearance.Small.Slideme</item>
+        <item>@dimen/listPreferredItemHeight</item>
+        <item>?attr/backgroundPrimary</item>
+        <item>@style/Widget.Slideme.SeekBar</item>
+        <item>@style/Widget.Slideme.RadioButton.Light</item>
+        <item>0</item>
+        <item>0dp</item>
+        <item>0px</item>
+        <item>@style/SlideMeShowcaseTheme</item>
+        <item>@style/Widget.ActionBar.Slideme.Light</item>
+        <item>@drawable/theme_light_primary</item>
+        <item>@drawable/theme_light_secondary</item>
+        <item>@drawable/theme_light_tertiary</item>
+        <item>@drawable/theme_light_list_even</item>
+        <item>@drawable/theme_light_list_odd</item>
+        <item>#000</item>
+        <item>@drawable/flat_dark_background_slider</item>
+        <item>@color/light_bevelDark</item>
+        <item>@color/light_bevelLight</item>
+        <item>#808080</item>
+        <item>@style/Widget.RatingBar.Small.Slideme</item>
+        <item>@style/Widget.RatingBar.Medium.Slideme</item>
+        <item>@style/Widget.RatingBar.Big.Slideme</item>
+        <item>@color/text_shadow_light</item>
+        <item>@color/button_textcolor_light</item>
+    </style>
+    <style name="Theme.Slideme.Light">
+        <item>#000</item>
+        <item>#666</item>
+        <item>@style/TextAppearance.Large.Slideme</item>
+        <item>@style/TextAppearance.Medium.Slideme</item>
+        <item>@style/TextAppearance.Small.Slideme</item>
+        <item>@dimen/listPreferredItemHeight</item>
+        <item>?attr/backgroundPrimary</item>
+        <item>@style/Widget.Slideme.SeekBar</item>
+        <item>@style/Widget.Slideme.RadioButton.Light</item>
+        <item>0</item>
+        <item>0dp</item>
+        <item>0px</item>
+        <item>@style/Widget.ActionBar.Slideme.Light</item>
+        <item>@style/Widget.Slideme.ActionButton.Overflow</item>
+        <item>@drawable/fastscroll_thumb_holo</item>
+        <item>@style/SlideMeShowcaseTheme</item>
+        <item>@style/Widget.ActionBar.Slideme.Light</item>
+        <item>@drawable/theme_light_primary</item>
+        <item>@drawable/theme_light_secondary</item>
+        <item>@drawable/theme_light_tertiary</item>
+        <item>@drawable/theme_light_list_even</item>
+        <item>@drawable/theme_light_list_odd</item>
+        <item>#000</item>
+        <item>@drawable/flat_dark_background_slider</item>
+        <item>@color/light_bevelDark</item>
+        <item>@color/light_bevelLight</item>
+        <item>#808080</item>
+        <item>@style/Widget.RatingBar.Small.Slideme</item>
+        <item>@style/Widget.RatingBar.Medium.Slideme</item>
+        <item>@style/Widget.RatingBar.Big.Slideme</item>
+        <item>@color/text_shadow_light</item>
+        <item>@color/button_textcolor_light</item>
+    </style>
+    <style name="Theme.Black.Fullscreen">
+        <item>true</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme">
+        <item>@drawable/bg_actionbar_repeat</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@drawable/bg_actionbar_repeat</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme">
+        <item>@drawable/bg_actionbar_repeat</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@drawable/bg_actionbar_repeat</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Light">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Light">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title.Inverse</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Dark">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+    </style>
+    <style name="Widget.ActionBar.Slideme.Dark">
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+        <item>@style/TextAppearance.Sherlock.Widget.ActionBar.Title</item>
+    </style>
+    <style name="Theme.Slideme.Screenshots">
+        <item>?unknown_ref: 106000c</item>
+        <item>@color/text_shadow_dark</item>
+        <item>@color/button_textcolor_dark</item>
+    </style>
+    <style name="Theme.Slideme.Splash">
+        <item>?unknown_ref: 0</item>
+        <item>@color/text_shadow_dark</item>
+        <item>@color/button_textcolor_dark</item>
+    </style>
+    <style name="Theme.Slideme.Translucent">
+        <item>?unknown_ref: 106000d</item>
+    </style>
+</resources>

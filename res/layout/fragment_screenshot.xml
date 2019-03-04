@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.SafeViewFlipper xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/flipper" android:layout_width="match_parent" android:layout_height="match_parent" android:inAnimation="0x10a0000" android:outAnimation="0x10a0001">
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?unknown_attr_ref: 101007a" />
+    <ImageView android:id="@id/screenshot" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+</com.slideme.sam.manager.view.touchme.SafeViewFlipper>

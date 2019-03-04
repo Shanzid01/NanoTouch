@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="?attr/backgroundSecondary" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@id/contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/support" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/Widget.Button.SlideMe" />
+    <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:textStyle="bold" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/topDev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/name" android:layout_alignParentLeft="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:src="@drawable/indicator_top_dev" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/topDeveloper" />
+    </LinearLayout>
+</RelativeLayout>

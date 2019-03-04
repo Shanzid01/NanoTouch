@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.slideme.sam.manager.view.touchme.SafeViewFlipper xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/flipper" android:layout_width="match_parent" android:layout_height="match_parent" android:inAnimation="0x10a0000" android:outAnimation="0x10a0001">
+    <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?unknown_attr_ref: 101007a" />
+    <RelativeLayout android:id="@id/featured_container" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/info_title" android:background="@drawable/bg_layer_dark" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/Widget.TextView.Slideme.Form.Value" />
+            <GridView android:id="@id/apps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="0x1020010" android:layout_alignWithParentIfMissing="true" android:fastScrollEnabled="true" style="@style/gridStyle" />
+        </LinearLayout>
+        <TextView android:textAppearance="?unknown_attr_ref: 1010040" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="0x1020004" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/empty_apps" />
+    </RelativeLayout>
+</com.slideme.sam.manager.view.touchme.SafeViewFlipper>

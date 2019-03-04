@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="11120" android:versionName="6.35" package="com.slideme.sam.manager" platformBuildVersionCode="22" platformBuildVersionName="5.1.1-1819727">
+    <permission android:label="@string/permlab_billing" android:name="com.slideme.sam.manager.inapp.permission.BILLING" android:protectionLevel="dangerous|signatureOrSystem" android:permissionGroup="android.permission-group.COST_MONEY" android:description="@string/permdesc_billing" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18" />
+    <application android:theme="@style/Theme.Slideme.Dark" android:label="@string/sam_title" android:icon="@drawable/ic_home_logo" android:name="com.slideme.sam.manager.SAM" android:allowBackup="false" android:hardwareAccelerated="true">
+        <meta-data android:name="android.app.default_searchable" android:value=".controller.activities.SearchActivity" />
+        <activity android:theme="@style/Theme.Slideme.Splash" android:label="@string/title_application" android:name="com.slideme.sam.manager.controller.activities.SplashActivity" android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.APP_MARKET" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.slideme.sam.manager.controller.activities.SplashAccountFlowActivity" android:exported="false" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.market.catalog.DynamicLayoutActivity" android:exported="false" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.market.catalog.DynamicLayoutAccountAwareActivity" android:exported="false" />
+        <activity android:label="@string/activity_register" android:name="com.slideme.sam.manager.controller.activities.access.RegisterActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sam" android:host="register" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.market.catalog.MainActivity" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.CheckActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sam" android:host="check" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_search" android:name="com.slideme.sam.manager.controller.activities.SearchActivity" android:exported="true" android:launchMode="standard">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="market" android:host="search" android:path="" />
+                <data android:scheme="sam" android:host="search" android:path="" />
+                <data android:scheme="http" android:host="play.google.com" android:path="/store/search" />
+                <data android:scheme="https" android:host="play.google.com" android:path="/store/search" />
+                <data android:scheme="http" android:host="market.android.com" android:path="/search" />
+                <data android:scheme="https" android:host="market.android.com" android:path="/search" />
+            </intent-filter>
+            <meta-data android:name="android.app.searchable" android:resource="@xml/searchable" />
+        </activity>
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.market.product.ApplicationDetailsProxyActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="market" android:host="details" android:path="" />
+                <data android:scheme="http" android:host="play.google.com" android:path="/store/apps/details" />
+                <data android:scheme="https" android:host="play.google.com" android:path="/store/apps/details" />
+                <data android:scheme="http" android:host="market.android.com" android:path="/details" />
+                <data android:scheme="https" android:host="market.android.com" android:path="/details" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.market.product.ApplicationDetailsActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="sam" android:host="details" android:path="" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/activity_no_results" android:name="com.slideme.sam.manager.controller.activities.NoResultsActivity" android:exported="false" />
+        <activity android:label="@string/activity_help" android:name="com.slideme.sam.manager.controller.activities.common.HelpActivity" android:exported="false" />
+        <activity android:label="@string/activity_terms" android:name="com.slideme.sam.manager.controller.activities.market.product.TermsActivity" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.DeviceDefault" android:label="@string/activity_settings" android:name="com.slideme.sam.manager.controller.activities.preference.SettingsActivity" android:exported="false" />
+        <activity android:label="@string/activity_categories" android:name="com.slideme.sam.manager.controller.activities.market.catalog.CategoryListActivity" android:exported="false" />
+        <activity android:label="@string/activity_category" android:name="com.slideme.sam.manager.controller.activities.market.catalog.CategoryDisplayActivity" android:exported="false" />
+        <receiver android:name="com.slideme.sam.manager.model.service.PackageInstalledReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.slideme.sam.manager.model.service.DeleteFileAlarmReceiver" />
+        <receiver android:name="com.slideme.sam.manager.model.service.CheckPendingInstallNotificationsAlarmReceiver" />
+        <provider android:name="com.slideme.sam.manager.model.data.cache.SamSuggestionProvider" android:authorities="com.slideme.sam.manager.SamSuggestionProvider" />
+        <activity android:label="@string/activity_vendor" android:name="com.slideme.sam.manager.controller.activities.market.vendor.DeveloperDetailsActivity" android:exported="false" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.market.product.ReviewListActivity" android:exported="false" />
+        <activity android:label="@string/activity_myapps" android:name="com.slideme.sam.manager.controller.activities.market.userinfo.MyAppsActivity" android:exported="false" />
+        <activity android:label="@string/activity_myaccount" android:name="com.slideme.sam.manager.controller.activities.market.userinfo.MyAccountActivity" android:exported="false" />
+        <activity android:theme="@style/Theme.Slideme.Screenshots" android:name="com.slideme.sam.manager.controller.activities.market.product.ScreenshotActivity" android:exported="false" />
+        <activity android:label="@string/activity_register" android:name="com.slideme.sam.manager.controller.activities.access.SimpleRegisterActivity" android:exported="false" />
+        <activity android:label="@string/activity_profile_upgrade" android:name="com.slideme.sam.manager.controller.activities.access.UpgradeProfileActivity" android:exported="false" />
+        <activity android:label="@string/about" android:name="com.slideme.sam.manager.controller.activities.AboutActivity" android:exported="false" />
+        <activity android:label="@string/activity_topup" android:name="com.slideme.sam.manager.controller.activities.web.TopupActivity" android:exported="false" android:configChanges="orientation" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.web.WebBuyFragmentActivity" android:exported="false" android:configChanges="orientation" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.web.WebViewActivity" android:exported="false" android:configChanges="orientation" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.web.QuestionnaireActivity" android:exported="false" android:configChanges="orientation" />
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.web.AdProxyWebViewActivity" android:exported="false" android:configChanges="orientation" />
+        <activity android:theme="@*android:style/Theme.DeviceDefault.Dialog.MinWidth" android:name="com.slideme.sam.manager.controller.activities.ExceptionActivity" android:exported="false" />
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.market.catalog.ActivityDynamicLayoutItemActivity" android:exported="false" />
+        <activity android:label="@string/activity_default" android:name="com.slideme.sam.manager.controller.activities.market.catalog.QueryDynamicLayoutItemActivity" android:exported="false" />
+        <activity android:label="@string/activity_updates" android:name="com.slideme.sam.manager.controller.activities.market.catalog.UpdatesListActivity" android:exported="false" android:taskAffinity="" android:excludeFromRecents="true" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.SamUpdateActivity" android:exported="false" android:configChanges="orientation" />
+        <service android:name="com.slideme.sam.manager.model.service.ApplicationUpdatesCheckService" android:exported="false" />
+        <service android:name="com.slideme.sam.manager.model.service.LaunchOrInstallService" android:exported="false" />
+        <service android:name="com.slideme.sam.manager.model.service.ApplicationDownloadService" android:exported="false" android:process=":adls" />
+        <service android:name="com.slideme.sam.manager.model.service.ApplicationInstallervice" android:exported="false" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.test.ScorecardActivity" android:exported="false" />
+        <activity android:name="com.slideme.sam.manager.controller.activities.test.ApproveActivity" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.NoDisplay" android:name="com.slideme.sam.manager.controller.activities.market.InstallDelegateActivity" android:exported="false" />
+        <service android:name="com.slideme.sam.manager.auth.SlidemeAuthenticatorService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator" />
+        </service>
+        <activity android:name="com.slideme.sam.manager.auth.AuthenticatorActivity" />
+        <activity android:name="com.mopub.mobileads.MoPubActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.common.MoPubBrowser" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mopub.mobileads.MraidVideoPlayerActivity" android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="com.mobfox.sdk.InAppWebView" />
+        <activity android:theme="@style/Theme.Slideme.Splash" android:name="com.slideme.sam.manager.inapp.SelectAccountActivity" />
+        <activity android:name="com.slideme.sam.manager.inapp.InAppPurchasingActivity" android:noHistory="true" />
+        <service android:name="com.slideme.sam.manager.inapp.InAppService" android:permission="com.slideme.sam.manager.inapp.permission.BILLING">
+            <intent-filter>
+                <action android:name="com.slideme.sam.manager.inapp.InAppService.BIND" />
+            </intent-filter>
+        </service>
+        <service android:name="com.slideme.sam.manager.inapp.openiab.OpenIabStoreService" android:exported="true">
+            <intent-filter>
+                <action android:name="org.onepf.oms.openappstore.BIND" />
+            </intent-filter>
+        </service>
+        <service android:name="com.slideme.sam.manager.inapp.openiab.OpenIabBillingService" android:exported="true">
+            <intent-filter>
+                <action android:name="org.onepf.oms.billing.BIND" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:label="@string/title_application" android:name="com.facebook.LoginActivity" />
+        <meta-data android:name="com.crashlytics.ApiKey" android:value="af8adf811f5cfe4876407fd585a6d6bb5b7ec5c4" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

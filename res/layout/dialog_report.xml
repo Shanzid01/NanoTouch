@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Spinner android:entries="@array/reportReasons" android:id="@id/reasonSpinner" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+    <EditText android:id="@id/reasonText" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="@dimen/dialogMinTextHeight" android:hint="@string/reportTextHint" android:layout_weight="1.0">
+        <requestFocus />
+    </EditText>
+</LinearLayout>

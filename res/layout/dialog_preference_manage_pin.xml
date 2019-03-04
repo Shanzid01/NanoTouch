@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/set_pin_title" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/change_pin_title" style="?unknown_attr_ref: 1010208" />
+        <EditText android:id="@id/set_pin_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxLength="4" android:inputType="textUri|textEmailSubject|textLongMessage|textPostalAddress|textVisiblePassword|textFilter|textWebEmailAddress|number|numberSigned|numberDecimal|numberPassword|phone|date" android:imeOptions="actionNone|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+        <com.slideme.sam.manager.view.touchme.VerifyableEditText android:id="@id/set_pin_verify" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/verify_pin_hint" android:inputType="textUri|textEmailSubject|textLongMessage|textPostalAddress|textVisiblePassword|textFilter|textWebEmailAddress|number|numberSigned|numberDecimal|numberPassword|phone|date" android:imeOptions="actionGo|actionSearch|actionSend|actionNext|actionDone|actionPrevious" />
+        <TextView android:id="@id/remove_pin_title" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:text="@string/remove_pin_title" style="?unknown_attr_ref: 1010208" />
+        <Button android:id="@id/remove_pin_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/remove_pin_text" />
+    </LinearLayout>
+</ScrollView>

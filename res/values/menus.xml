@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="options_app_details">res/menu/options_app_details.xml</menu>
+    <menu name="options_app_details">res/menu-v11/options_app_details.xml</menu>
+    <menu name="options_category_display">res/menu/options_category_display.xml</menu>
+    <menu name="options_category_display">res/menu-v11/options_category_display.xml</menu>
+    <menu name="options_iap_purchasing">res/menu/options_iap_purchasing.xml</menu>
+    <menu name="options_iap_purchasing">res/menu-v11/options_iap_purchasing.xml</menu>
+    <menu name="options_login">res/menu/options_login.xml</menu>
+    <menu name="options_login">res/menu-v11/options_login.xml</menu>
+    <menu name="options_main">res/menu/options_main.xml</menu>
+    <menu name="options_main">res/menu-v11/options_main.xml</menu>
+    <menu name="options_my_account">res/menu/options_my_account.xml</menu>
+    <menu name="options_my_account">res/menu-v11/options_my_account.xml</menu>
+    <menu name="options_review_list">res/menu/options_review_list.xml</menu>
+    <menu name="options_review_list">res/menu-v11/options_review_list.xml</menu>
+    <menu name="options_search">res/menu/options_search.xml</menu>
+    <menu name="options_search">res/menu-v11/options_search.xml</menu>
+    <menu name="options_terms">res/menu/options_terms.xml</menu>
+    <menu name="options_terms">res/menu-v11/options_terms.xml</menu>
+    <menu name="options_test">res/menu/options_test.xml</menu>
+    <menu name="options_test">res/menu-v11/options_test.xml</menu>
+    <menu name="options_topup">res/menu/options_topup.xml</menu>
+    <menu name="options_topup">res/menu-v11/options_topup.xml</menu>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/bg_listitem_pressed" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/bg_listitem_focused" />
+        </shape>
+    </item>
+    <item android:animationCache="true" android:drawable="0x106000d" />
+    <item android:animationCache="false" android:drawable="0x106000d" />
+    <item android:alwaysDrawnWithCache="false" android:drawable="0x106000d" />
+    <item android:alwaysDrawnWithCache="true" android:drawable="0x106000d" />
+    <item android:drawable="0x106000d" android:fadeScrollbars="false" />
+    <item android:drawable="0x106000d" android:fadeScrollbars="true" />
+    <item android:fitsSystemWindows="true" android:drawable="0x106000d" />
+    <item android:fitsSystemWindows="false" android:drawable="0x106000d" />
+</selector>

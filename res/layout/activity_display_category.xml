@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="?attr/backgroundSecondary" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.slideme.sam.manager.view.touchme.SlidingTabSelector android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/layout_filter" android:background="?attr/slidingTabSelectorBackground" android:focusable="true" android:layout_width="UNKNOWN_DATA_0x11801" android:layout_height="UNKNOWN_DATA_0x2d01" android:layout_marginLeft="16dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp" android:weightSum="0.9">
+        <TextView android:id="@id/all" android:focusable="true" android:nextFocusRight="@id/free" android:text="@string/all" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+        <TextView android:id="@id/free" android:focusable="true" android:nextFocusLeft="@id/all" android:nextFocusRight="@id/paid" android:text="@string/free" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+        <TextView android:id="@id/paid" android:focusable="true" android:nextFocusLeft="@id/free" android:text="@string/paid" android:layout_weight="0.3" style="@style/SlidingTabSelectorLabelStyle" />
+    </com.slideme.sam.manager.view.touchme.SlidingTabSelector>
+    <android.support.v4.view.ViewPager android:id="@id/viewpager" android:nextFocusUp="@id/layout_filter" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

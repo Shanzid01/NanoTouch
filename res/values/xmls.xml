@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="authenticator">res/xml/authenticator.xml</xml>
+    <xml name="preference_headers">res/xml/preference_headers.xml</xml>
+    <xml name="preference_headers">res/xml-v11/preference_headers.xml</xml>
+    <xml name="preferences_advanced">res/xml/preferences_advanced.xml</xml>
+    <xml name="preferences_cache">res/xml/preferences_cache.xml</xml>
+    <xml name="preferences_general">res/xml/preferences_general.xml</xml>
+    <xml name="preferences_local">res/xml/preferences_local.xml</xml>
+    <xml name="preferences_parental_control">res/xml/preferences_parental_control.xml</xml>
+    <xml name="searchable">res/xml/searchable.xml</xml>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@id/update_all" android:layout_width="UNKNOWN_DATA_0x7f060043" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_margin="8dp" android:text="@string/update_all" style="@style/Widget.Button.SlideMe.Green" />
+    <FrameLayout android:id="@id/applist" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

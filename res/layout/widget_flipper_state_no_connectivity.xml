@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/no_con_container" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f060043" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_no_connectivity" />
+        <TextView android:textSize="20sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/conn_error_title" style="@style/Widget.TextView.Slideme.Form.Title" />
+        <Button android:id="@id/refresh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="44dp" android:maxWidth="100dp" android:text="@string/retry" style="@style/Widget.Button.SlideMe" />
+        <Button android:id="@id/wifiSettings" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxWidth="100dp" android:text="@string/wifi_settings" style="@style/Widget.Button.SlideMe" />
+    </LinearLayout>
+</ScrollView>

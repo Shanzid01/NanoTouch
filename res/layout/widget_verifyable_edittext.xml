@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <EditText android:id="@id/text" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="45" />
+    <com.slideme.sam.manager.view.touchme.SafeViewFlipper android:id="@id/status" android:focusable="false" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:inAnimation="0x10a0000" android:outAnimation="0x10a0001" android:layout_alignTop="@id/text" android:layout_alignRight="@id/text" android:layout_alignBottom="@id/text">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_indicator_cancel" />
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_indicator_accept" />
+        <ProgressBar android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:indeterminate="true" />
+    </com.slideme.sam.manager.view.touchme.SafeViewFlipper>
+</RelativeLayout>
