@@ -1,0 +1,264 @@
+package com.google.android.gms.fitness;
+
+import com.google.android.gms.games.quest.Quests;
+import com.google.android.gms.location.LocationRequest;
+
+public class FitnessActivities {
+    public static final String AEROBICS = "aerobics";
+    public static final String BADMINTON = "badminton";
+    public static final String BASEBALL = "baseball";
+    public static final String BASKETBALL = "basketball";
+    public static final String BIATHLON = "biathlon";
+    public static final String BIKING = "biking";
+    public static final String BIKING_HAND = "biking.hand";
+    public static final String BIKING_MOUNTAIN = "biking.mountain";
+    public static final String BIKING_ROAD = "biking.road";
+    public static final String BIKING_SPINNING = "biking.spinning";
+    public static final String BIKING_STATIONARY = "biking.stationary";
+    public static final String BIKING_UTILITY = "biking.utility";
+    public static final String BOXING = "boxing";
+    public static final String CALISTHENICS = "calisthenics";
+    public static final String CIRCUIT_TRAINING = "circuit_training";
+    public static final String CRICKET = "cricket";
+    public static final String CURLING = "curling";
+    public static final String DANCING = "dancing";
+    public static final String DIVING = "diving";
+    public static final String ELLIPTICAL = "elliptical";
+    public static final String ERGOMETER = "ergometer";
+    public static final String EXTRA_STATUS = "actionStatus";
+    public static final String FENCING = "fencing";
+    public static final String FOOTBALL_AMERICAN = "football.american";
+    public static final String FOOTBALL_AUSTRALIAN = "football.australian";
+    public static final String FOOTBALL_SOCCER = "football.soccer";
+    public static final String FRISBEE_DISC = "frisbee_disc";
+    public static final String GARDENING = "gardening";
+    public static final String GOLF = "golf";
+    public static final String GYMNASTICS = "gymnastics";
+    public static final String HANDBALL = "handball";
+    public static final String HIKING = "hiking";
+    public static final String HOCKEY = "hockey";
+    public static final String HORSEBACK_RIDING = "horseback_riding";
+    public static final String HOUSEWORK = "housework";
+    public static final String ICE_SKATING = "ice_skating";
+    public static final String IN_VEHICLE = "in_vehicle";
+    public static final String JUMP_ROPE = "jump_rope";
+    public static final String KAYAKING = "kayaking";
+    public static final String KETTLEBELL_TRAINING = "kettlebell_training";
+    public static final String KICKBOXING = "kickboxing";
+    public static final String KICK_SCOOTER = "kick_scooter";
+    public static final String KITESURFING = "kitesurfing";
+    public static final String MARTIAL_ARTS = "martial_arts";
+    public static final String MEDITATION = "meditation";
+    public static final String MIME_TYPE_PREFIX = "vnd.google.fitness.activity/";
+    public static final String MIXED_MARTIAL_ARTS = "martial_arts.mixed";
+    public static final String ON_FOOT = "on_foot";
+    public static final String OTHER = "other";
+    public static final String P90X = "p90x";
+    public static final String PARAGLIDING = "paragliding";
+    public static final String PILATES = "pilates";
+    public static final String POLO = "polo";
+    public static final String RACQUETBALL = "racquetball";
+    public static final String ROCK_CLIMBING = "rock_climbing";
+    public static final String ROWING = "rowing";
+    public static final String ROWING_MACHINE = "rowing.machine";
+    public static final String RUGBY = "rugby";
+    public static final String RUNNING = "running";
+    public static final String RUNNING_JOGGING = "running.jogging";
+    public static final String RUNNING_SAND = "running.sand";
+    public static final String RUNNING_TREADMILL = "running.treadmill";
+    public static final String SAILING = "sailing";
+    public static final String SCUBA_DIVING = "scuba_diving";
+    public static final String SKATEBOARDING = "skateboarding";
+    public static final String SKATING = "skating";
+    public static final String SKATING_CROSS = "skating.cross";
+    public static final String SKATING_INDOOR = "skating.indoor";
+    public static final String SKATING_INLINE = "skating.inline";
+    public static final String SKIING = "skiing";
+    public static final String SKIING_BACK_COUNTRY = "skiing.back_country";
+    public static final String SKIING_CROSS_COUNTRY = "skiing.cross_country";
+    public static final String SKIING_DOWNHILL = "skiing.downhill";
+    public static final String SKIING_KITE = "skiing.kite";
+    public static final String SKIING_ROLLER = "skiing.roller";
+    public static final String SLEDDING = "sledding";
+    public static final String SLEEP = "sleep";
+    public static final String SLEEP_AWAKE = "sleep.awake";
+    public static final String SLEEP_DEEP = "sleep.deep";
+    public static final String SLEEP_LIGHT = "sleep.light";
+    public static final String SLEEP_REM = "sleep.rem";
+    public static final String SNOWBOARDING = "snowboarding";
+    public static final String SNOWMOBILE = "snowmobile";
+    public static final String SNOWSHOEING = "snowshoeing";
+    public static final String SQUASH = "squash";
+    public static final String STAIR_CLIMBING = "stair_climbing";
+    public static final String STAIR_CLIMBING_MACHINE = "stair_climbing.machine";
+    public static final String STANDUP_PADDLEBOARDING = "standup_paddleboarding";
+    public static final String STATUS_ACTIVE = "ActiveActionStatus";
+    public static final String STATUS_COMPLETED = "CompletedActionStatus";
+    public static final String STILL = "still";
+    public static final String STRENGTH_TRAINING = "strength_training";
+    public static final String SURFING = "surfing";
+    public static final String SWIMMING = "swimming";
+    public static final String SWIMMING_OPEN_WATER = "swimming.open_water";
+    public static final String SWIMMING_POOL = "swimming.pool";
+    public static final String TABLE_TENNIS = "table_tennis";
+    public static final String TEAM_SPORTS = "team_sports";
+    public static final String TENNIS = "tennis";
+    public static final String TILTING = "tilting";
+    public static final String TREADMILL = "treadmill";
+    public static final String UNKNOWN = "unknown";
+    public static final String VOLLEYBALL = "volleyball";
+    public static final String VOLLEYBALL_BEACH = "volleyball.beach";
+    public static final String VOLLEYBALL_INDOOR = "volleyball.indoor";
+    public static final String WAKEBOARDING = "wakeboarding";
+    public static final String WALKING = "walking";
+    public static final String WALKING_FITNESS = "walking.fitness";
+    public static final String WALKING_NORDIC = "walking.nordic";
+    public static final String WALKING_TREADMILL = "walking.treadmill";
+    public static final String WATER_POLO = "water_polo";
+    public static final String WEIGHTLIFTING = "weightlifting";
+    public static final String WHEELCHAIR = "wheelchair";
+    public static final String WINDSURFING = "windsurfing";
+    public static final String YOGA = "yoga";
+    public static final String ZUMBA = "zumba";
+    private static final String[] zzYn = new String[113];
+
+    static {
+        zzYn[9] = AEROBICS;
+        zzYn[10] = BADMINTON;
+        zzYn[11] = BASEBALL;
+        zzYn[12] = BASKETBALL;
+        zzYn[13] = BIATHLON;
+        zzYn[1] = BIKING;
+        zzYn[14] = BIKING_HAND;
+        zzYn[15] = BIKING_MOUNTAIN;
+        zzYn[16] = BIKING_ROAD;
+        zzYn[17] = BIKING_SPINNING;
+        zzYn[18] = BIKING_STATIONARY;
+        zzYn[19] = BIKING_UTILITY;
+        zzYn[20] = BOXING;
+        zzYn[21] = CALISTHENICS;
+        zzYn[22] = CIRCUIT_TRAINING;
+        zzYn[23] = CRICKET;
+        zzYn[106] = CURLING;
+        zzYn[24] = DANCING;
+        zzYn[102] = DIVING;
+        zzYn[25] = ELLIPTICAL;
+        zzYn[Quests.SELECT_RECENTLY_FAILED] = ERGOMETER;
+        zzYn[6] = "exiting_vehicle";
+        zzYn[26] = FENCING;
+        zzYn[27] = FOOTBALL_AMERICAN;
+        zzYn[28] = FOOTBALL_AUSTRALIAN;
+        zzYn[29] = FOOTBALL_SOCCER;
+        zzYn[30] = FRISBEE_DISC;
+        zzYn[31] = GARDENING;
+        zzYn[32] = GOLF;
+        zzYn[33] = GYMNASTICS;
+        zzYn[34] = HANDBALL;
+        zzYn[35] = HIKING;
+        zzYn[36] = HOCKEY;
+        zzYn[37] = HORSEBACK_RIDING;
+        zzYn[38] = HOUSEWORK;
+        zzYn[LocationRequest.PRIORITY_LOW_POWER] = ICE_SKATING;
+        zzYn[0] = IN_VEHICLE;
+        zzYn[39] = JUMP_ROPE;
+        zzYn[40] = KAYAKING;
+        zzYn[41] = KETTLEBELL_TRAINING;
+        zzYn[107] = KICK_SCOOTER;
+        zzYn[42] = KICKBOXING;
+        zzYn[43] = KITESURFING;
+        zzYn[44] = MARTIAL_ARTS;
+        zzYn[45] = MEDITATION;
+        zzYn[46] = MIXED_MARTIAL_ARTS;
+        zzYn[2] = ON_FOOT;
+        zzYn[108] = OTHER;
+        zzYn[47] = P90X;
+        zzYn[48] = PARAGLIDING;
+        zzYn[49] = PILATES;
+        zzYn[50] = POLO;
+        zzYn[51] = RACQUETBALL;
+        zzYn[52] = ROCK_CLIMBING;
+        zzYn[53] = ROWING;
+        zzYn[54] = ROWING_MACHINE;
+        zzYn[55] = RUGBY;
+        zzYn[8] = RUNNING;
+        zzYn[56] = RUNNING_JOGGING;
+        zzYn[57] = RUNNING_SAND;
+        zzYn[58] = RUNNING_TREADMILL;
+        zzYn[59] = SAILING;
+        zzYn[60] = SCUBA_DIVING;
+        zzYn[61] = SKATEBOARDING;
+        zzYn[62] = SKATING;
+        zzYn[63] = SKATING_CROSS;
+        zzYn[LocationRequest.PRIORITY_NO_POWER] = SKATING_INDOOR;
+        zzYn[64] = SKATING_INLINE;
+        zzYn[65] = SKIING;
+        zzYn[66] = SKIING_BACK_COUNTRY;
+        zzYn[67] = SKIING_CROSS_COUNTRY;
+        zzYn[68] = SKIING_DOWNHILL;
+        zzYn[69] = SKIING_KITE;
+        zzYn[70] = SKIING_ROLLER;
+        zzYn[71] = SLEDDING;
+        zzYn[72] = SLEEP;
+        zzYn[109] = SLEEP_LIGHT;
+        zzYn[110] = SLEEP_DEEP;
+        zzYn[111] = SLEEP_REM;
+        zzYn[112] = SLEEP_AWAKE;
+        zzYn[73] = SNOWBOARDING;
+        zzYn[74] = SNOWMOBILE;
+        zzYn[75] = SNOWSHOEING;
+        zzYn[76] = SQUASH;
+        zzYn[77] = STAIR_CLIMBING;
+        zzYn[78] = STAIR_CLIMBING_MACHINE;
+        zzYn[79] = STANDUP_PADDLEBOARDING;
+        zzYn[3] = STILL;
+        zzYn[80] = STRENGTH_TRAINING;
+        zzYn[81] = SURFING;
+        zzYn[82] = SWIMMING;
+        zzYn[83] = SWIMMING_POOL;
+        zzYn[84] = SWIMMING_OPEN_WATER;
+        zzYn[85] = TABLE_TENNIS;
+        zzYn[86] = TEAM_SPORTS;
+        zzYn[87] = TENNIS;
+        zzYn[5] = TILTING;
+        zzYn[88] = TREADMILL;
+        zzYn[4] = UNKNOWN;
+        zzYn[89] = VOLLEYBALL;
+        zzYn[90] = VOLLEYBALL_BEACH;
+        zzYn[91] = VOLLEYBALL_INDOOR;
+        zzYn[92] = WAKEBOARDING;
+        zzYn[7] = WALKING;
+        zzYn[93] = WALKING_FITNESS;
+        zzYn[94] = WALKING_NORDIC;
+        zzYn[95] = WALKING_TREADMILL;
+        zzYn[96] = WATER_POLO;
+        zzYn[97] = WEIGHTLIFTING;
+        zzYn[98] = WHEELCHAIR;
+        zzYn[99] = WINDSURFING;
+        zzYn[100] = YOGA;
+        zzYn[Quests.SELECT_COMPLETED_UNCLAIMED] = ZUMBA;
+    }
+
+    FitnessActivities() {
+    }
+
+    public static String getMimeType(String str) {
+        return MIME_TYPE_PREFIX + str;
+    }
+
+    public static String getName(int i) {
+        if (i < 0 || i >= zzYn.length) {
+            return UNKNOWN;
+        }
+        String str = zzYn[i];
+        return str == null ? UNKNOWN : str;
+    }
+
+    public static int zzbG(String str) {
+        for (int i = 0; i < zzYn.length; i++) {
+            if (zzYn[i].equals(str)) {
+                return i;
+            }
+        }
+        return 4;
+    }
+}

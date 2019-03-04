@@ -1,0 +1,228 @@
+package com.google.android.gms.games.internal;
+
+import android.os.Bundle;
+import com.google.android.gms.common.data.DataHolder;
+import com.google.android.gms.drive.Contents;
+import com.google.android.gms.games.internal.IGamesCallbacks.Stub;
+import com.google.android.gms.games.multiplayer.realtime.RealTimeMessage;
+
+public abstract class AbstractGamesCallbacks extends Stub {
+    public void onInvitationRemoved(String str) {
+    }
+
+    public void onLeftRoom(int i, String str) {
+    }
+
+    public void onP2PConnected(String str) {
+    }
+
+    public void onP2PDisconnected(String str) {
+    }
+
+    public void onRealTimeMessageReceived(RealTimeMessage realTimeMessage) {
+    }
+
+    public void onRequestRemoved(String str) {
+    }
+
+    public void onTurnBasedMatchRemoved(String str) {
+    }
+
+    public void zzA(DataHolder dataHolder) {
+    }
+
+    public void zzB(DataHolder dataHolder) {
+    }
+
+    public void zzC(DataHolder dataHolder) {
+    }
+
+    public void zzD(DataHolder dataHolder) {
+    }
+
+    public void zzE(DataHolder dataHolder) {
+    }
+
+    public void zzF(DataHolder dataHolder) {
+    }
+
+    public void zzG(DataHolder dataHolder) {
+    }
+
+    public void zzH(DataHolder dataHolder) {
+    }
+
+    public void zzI(DataHolder dataHolder) {
+    }
+
+    public void zzJ(DataHolder dataHolder) {
+    }
+
+    public void zzK(DataHolder dataHolder) {
+    }
+
+    public void zzL(DataHolder dataHolder) {
+    }
+
+    public void zzM(DataHolder dataHolder) {
+    }
+
+    public void zzN(DataHolder dataHolder) {
+    }
+
+    public void zzO(DataHolder dataHolder) {
+    }
+
+    public void zzP(DataHolder dataHolder) {
+    }
+
+    public void zzQ(DataHolder dataHolder) {
+    }
+
+    public void zza(int i, String str, boolean z) {
+    }
+
+    public void zza(DataHolder dataHolder, DataHolder dataHolder2) {
+    }
+
+    public void zza(DataHolder dataHolder, Contents contents) {
+    }
+
+    public void zza(DataHolder dataHolder, String str, Contents contents, Contents contents2, Contents contents3) {
+    }
+
+    public void zza(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zza(DataHolder[] dataHolderArr) {
+    }
+
+    public void zzb(int i, int i2, String str) {
+    }
+
+    public void zzb(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zzc(DataHolder dataHolder) {
+    }
+
+    public void zzc(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zzd(int i, Bundle bundle) {
+    }
+
+    public void zzd(DataHolder dataHolder) {
+    }
+
+    public void zzd(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zze(int i, Bundle bundle) {
+    }
+
+    public void zze(int i, String str) {
+    }
+
+    public void zze(DataHolder dataHolder) {
+    }
+
+    public void zze(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zzex(int i) {
+    }
+
+    public void zzey(int i) {
+    }
+
+    public void zzez(int i) {
+    }
+
+    public void zzf(int i, Bundle bundle) {
+    }
+
+    public void zzf(int i, String str) {
+    }
+
+    public void zzf(DataHolder dataHolder) {
+    }
+
+    public void zzf(DataHolder dataHolder, String[] strArr) {
+    }
+
+    public void zzg(int i, Bundle bundle) {
+    }
+
+    public void zzg(int i, String str) {
+    }
+
+    public void zzg(DataHolder dataHolder) {
+    }
+
+    public void zzh(int i, Bundle bundle) {
+    }
+
+    public void zzh(int i, String str) {
+    }
+
+    public void zzh(DataHolder dataHolder) {
+    }
+
+    public void zzhb() {
+    }
+
+    public void zzi(DataHolder dataHolder) {
+    }
+
+    public void zzj(DataHolder dataHolder) {
+    }
+
+    public void zzk(DataHolder dataHolder) {
+    }
+
+    public void zzl(DataHolder dataHolder) {
+    }
+
+    public void zzm(DataHolder dataHolder) {
+    }
+
+    public void zzn(DataHolder dataHolder) {
+    }
+
+    public void zzo(DataHolder dataHolder) {
+    }
+
+    public void zzp(DataHolder dataHolder) {
+    }
+
+    public void zzq(DataHolder dataHolder) {
+    }
+
+    public void zzr(DataHolder dataHolder) {
+    }
+
+    public void zzs(DataHolder dataHolder) {
+    }
+
+    public void zzt(DataHolder dataHolder) {
+    }
+
+    public void zzu(DataHolder dataHolder) {
+    }
+
+    public void zzv(DataHolder dataHolder) {
+    }
+
+    public void zzw(DataHolder dataHolder) {
+    }
+
+    public void zzx(DataHolder dataHolder) {
+    }
+
+    public void zzy(DataHolder dataHolder) {
+    }
+
+    public void zzz(DataHolder dataHolder) {
+    }
+}
