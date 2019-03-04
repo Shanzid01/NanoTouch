@@ -12,5 +12,5 @@ With NanoTouch you can:<br>
 
 Adjust the look of the panel to your own preferences from the "Settings" option.
 
-<b>Note: The source code has been extracted from the apk (JADX decompiler). This is a very old project and I have since lost the original code.</b>
+<b>Note: The source code has been extracted from the apk (JADX decompiler). This is a very old project and I have since lost the original code.</b><br>
 <i>Last update: July 14, 2014</i>
